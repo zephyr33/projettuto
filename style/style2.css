@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI';
+    background: rgb(0, 0, 0);
+    color: #fff;
+    height: 100vh;
+    line-height: 1.6;
+}
+
+.hambi{
+  margin: 2% 0% 6% 40%;
+  font-size: 4vh;
+  text-decoration: underline;
+  letter-spacing: 3px;
+}
+
+#htheme{
+  font-size: 8VW;
+  letter-spacing: 50px;
+  border-top: solid;
+  border-bottom: dotted;
+  border-color: gray;
+  transition-duration: 1.5s;
+  margin-bottom: 50px;
+}
+
+#container h1{
+    text-align: center;
+}
+
+h2{
+  padding: 3.5% 2% 2% 46%;
+}
+
+.ambi{
+  margin: 0.5% 4% 0% 4%;
+  font-size: 3vh;
+  text-align: justify;
+}
+
+.theme {
+    margin: 0% 15% 3% 15%;
+    text-align: justify;
+}
+
+.pact{
+    padding-left: 2%;
+    float: left;
+    color: black;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 8%;
+  background: rgba(0,0,0,0.7);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+  margin-right: 9%;
+}
+
+.navbar ul li {
+  margin: 1%;
+  padding-left: 2%;
+}
+
+.navbar ul li a {
+  font-size: 2vh;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  transition-duration: 0.3s;
+}
+
+.navbar ul li a:hover {
+  font-size: 2.3vh;
+  color:rgba(201, 199, 194, 0.692);
+  transition-duration: 0.3s;
+  border-top: 3px solid rgba(201, 199, 194, 0.692);
+  border-bottom: 3px solid rgba(201, 199, 194, 0.692);
+  letter-spacing: 1px;
+}
+
+#logo{
+  max-width: 115%;
+  max-height: 100%;
+  width:120px;
+  height:50px;
+}
+
+.act{
+    max-height: 150px;
+    max-width: 100px;
+}
+
+#tg {
+    transition-duration: 3s;
+    background-color: lightgray;
+    border-collapse: collapse;
+    color: black;
+    margin-left: 24%;
+    text-align: center;
+}
+
+#tg2 {
+    transition-duration: 3s;
+    background-color: darkgray;
+    border-collapse: collapse;
+    color: black;
+    margin-left: 34%;
+    text-align: center;
+}
+
+th{
+    border:solid;
+    padding: 10px;
+}
+
+tr {
+    border: solid;
+    padding: 10px;
+}
+
+td {
+    border: solid;
+    padding: 10px;
+}
+#a1 {
+    height: 310px;
+    width: 500px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    background-color: darkgrey;
+    border: solid black;
+    border-radius: 5px;
+}
+
+#bgvid {
+  position: absolute; 
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: 80%; 
+  opacity: 35%;
+}
+
+iframe{
+    margin-left: 33%;
+}
+
+.parallax  { 
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;  
+  align-content: center;
+}
+
+.parallax2 {
+    object-fit: contain;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.parallax2 > img{
+  position: fixed;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+#container {
+    margin-top:50px;
+    height: auto;
+    background: rgb(27,27,27);
+    background: radial-gradient(circle, rgba(27,27,27,1) 4%, rgba(27,27,27,1) 30%, rgba(28,25,25,1) 46%, rgba(30,22,22,1) 72%, rgba(31,21,21,1) 88%, rgba(44,2,2,1) 100%);
+    position: relative;
+}
+
+.object-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+}
+
+.speed-1 {
+  transform: translateZ(-1px) scale(2);
+}
+
+.speed-2 {
+  transform: translateZ(-2px) scale(3);
+}
+
+.speed-3 {
+  transform: translateZ(-3px) scale(4);
+}
+
+.object {
+    transition-duration: 1s;
+    height: 90%;
+    width: 70%;
+    margin-left: 15%;
+    background-color: rgba(27, 27, 27, 0.95);
+    border-style: solid;
+    border-color: black;
+    border-radius: 0.5%;
+}
+
+.object-1 {
+  margin-top: 4%;
+}
+
+.object-2 {
+  margin-top: 45%;
+}
+
+.object-3 {
+  margin-top: 76%;
+}
+
+.page-content {
+  height: 669%;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color:rgba(0,0,0,0.8);
+  color: white;
+  text-align: center;
+}
+
+footer > p{
+  margin: 0;
+}

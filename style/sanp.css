@@ -1,0 +1,73 @@
+body{
+    overflow: hidden;
+    margin: 0%;
+}
+.container {
+    overflow-y: scroll;
+    height: 100vh;
+    width: 100vw;
+    background-color: darkgrey;
+  }
+  
+  .container div {
+    margin-bottom: 2.5%;
+    margin-left: 2%;
+    margin-top: 2.5%; 
+    scroll-snap-align: start;
+    width: 95vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    float: left;
+  }
+  .one {
+    background: hotpink;
+    color: white;
+    margin-top: 0;
+  }
+  .two {
+    background: azure;
+    margin-top: 50%;
+  }
+  .three {
+    background: blanchedalmond;
+    margin-top: 90%;
+    height: 600px;
+  }
+
+  .parallax  { 
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    
+  }
+  
+  .object-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+  }
+  
+  .speed-1 {
+    transform: translateZ(-1px) scale(2);
+  }
+  
+  .speed-2 {
+    transform: translateZ(-2px) scale(3);
+  }
+  
+  .speed-3 {
+    transform: translateZ(-3px) scale(4);
+  }
+
+  .page-content {
+    height: 860%;
+  }

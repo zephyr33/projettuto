@@ -1,0 +1,192 @@
+* {
+      margin: 0;
+      padding: 0;
+      user-select: none;
+  }
+  
+  body {
+      font-family: 'Segoe UI';
+      background: #333;
+      color: #fff;
+      height: 100vh;
+      line-height: 1.6;
+  }
+  
+
+
+  .container {
+      width: 100%;
+      height: 100%;
+      overflow-y: scroll; 
+      scroll-behavior: smooth;
+      scroll-snap-type: y mandatory;
+  }
+  
+  .lead {
+      font-size: 1.5rem;
+      background-color: rgba(0,0,0,0.85);
+      padding: 10px;
+      width: 45%;
+      height: auto;
+      float: left;
+      margin-left: 5%;
+      border-radius: 5px;
+      text-align:justify;
+  }
+  
+  .navbar {
+      position: fixed;
+      top: 0;
+      z-index: 1;
+      display: flex;
+      width: 100%;
+      height: 60px;
+      background: rgba(0,0,0,0.7);
+  }
+  
+  .navbar ul {
+      display: flex;
+      list-style: none;
+      width: 100%;
+      justify-content: center;
+      margin-right: 9%;
+    }
+    
+    .navbar ul li {
+      margin: 1%;
+      padding-left: 2%;
+    }
+    
+    .navbar ul li a {
+      font-size: 2vh;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #f4f4f4;
+      transition-duration: 0.3s;
+    }
+    
+    .navbar ul li a:hover {
+      font-size: 2.3vh;
+      color:rgba(201, 199, 194, 0.692);
+      letter-spacing: 1px;
+      transition-duration: 0.3s;
+      border-top: 3px solid rgba(201, 199, 194, 0.692);
+      border-bottom: 3px solid rgba(201, 199, 194, 0.692); 
+    }
+
+  .content {
+    font-size: 30px;
+    padding-top: 5%;
+}
+
+  .black{
+      color: black;
+  }
+
+  section {
+      scroll-snap-align: center;
+      width: 100%;
+      height: 100vh;
+  }
+  
+  section p {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+       
+
+  }
+  
+  section h1 {
+      font-size: 4rem;
+      text-align: center;
+  }
+
+  .bvn {
+      padding-top: 10%;
+      padding-bottom: 10%;
+      transition-duration: 3s;
+    }
+
+  .bvn:hover{
+    letter-spacing: 20px;
+    transition-duration: 7s;
+    color: black;
+  }
+
+  .h1appos{
+      padding-top: 5%;
+      width: 65%;
+      float: right;
+  }
+
+  section h1#contacter {
+      padding: 5% 5% 2% 5%;
+      margin-left: 45%;
+      text-align: center;
+      color: #424143;
+  }
+
+  .grid{
+    text-align: center;
+    font-size: 3vh;
+  }
+
+  .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto;
+      grid-gap: 10px;
+      padding: 10px;
+      margin-left: 37%;
+  }
+
+  .grid-container > div {
+      background-color: rgba(0,0,0,0.85);
+      text-align: center;
+      padding: 1% 0;
+      font-size: 30px;
+      border-radius: 5px;
+  }
+
+  .icon > img{
+      padding: 20px;
+      max-height: 50px;
+      max-width: 50px;
+  }
+
+section#acceuil {
+    background: url('https://images.unsplash.com/photo-1505562130589-9879683e72da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+section#apropos {
+    background: url('https://marciniwuc.com/wp-content/uploads/2016/06/finanse-bardzo-osobiste-pytania.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+  
+  section#contact {
+      background: url('https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1948&q=80');
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+  }
+
+  footer {
+      position: relative;
+      margin-top: -25px;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 25px;
+      background-color:rgba(0,0,0,0.8);
+      color: white;
+      text-align: center;
+  }
